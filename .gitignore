@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+**/.pnp
+.pnp.js
+
+# production
+**/build
+**/lib
+**/out
+**/dist
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*/logs
+*/public/images
+*/public/images/*
+
+# local env files
+# .env*.local
+.env
+.env.dev
+output.json
+public/raw-data.csv
+
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# vscode
+.vscode/
